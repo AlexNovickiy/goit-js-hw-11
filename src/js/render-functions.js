@@ -60,12 +60,12 @@ export function clearGallery() {
 }
 
 export function showLoader() {
-    loader.classList.add('loader');
+    loader.id = 'loader';
 }
 
 export function hideLoader() {
     setTimeout(() => {
-        loader.classList.remove('loader');
+        loader.id = '';
     }, 1000);
 }
 

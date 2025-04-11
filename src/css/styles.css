@@ -151,7 +151,7 @@ img {
 
 /* LOADER */
 
-.loader {
+#loader {
   transform: rotateZ(45deg);
   perspective: 1000px;
   border-radius: 50%;
@@ -160,8 +160,8 @@ img {
   color: #380ec1;
 }
 
-.loader:before,
-.loader:after {
+#loader:before,
+#loader:after {
   content: '';
   display: block;
   position: absolute;
@@ -174,7 +174,7 @@ img {
   animation: 1s spin linear infinite;
 }
 
-.loader:after {
+#loader:after {
   color: #FF3D00;
   transform: rotateY(70deg);
   animation-delay: .4s;
