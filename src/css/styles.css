@@ -115,6 +115,7 @@ img {
   max-width: 1128px;
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 36px;
 }
 
 .gallery-item {
@@ -165,7 +166,7 @@ img {
   display: block;
   position: absolute;
   top: 30%;
-  left: 45%;
+  left: 50%;
   width: inherit;
   height: inherit;
   border-radius: 50%;
