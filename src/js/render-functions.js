@@ -64,9 +64,7 @@ export function showLoader() {
 }
 
 export function hideLoader() {
-    setTimeout(() => {
-        loader.id = '';
-    }, 1000);
+    loader.id = '';
 }
 
 
